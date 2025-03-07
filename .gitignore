@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+*.classpath
+*.project
+.settings/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+local-configuration.xml
+
+# Maven
+target/
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.properties
+
+# JVM
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+*.pid
+*.gz
+*.tar

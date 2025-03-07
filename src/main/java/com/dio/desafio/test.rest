@@ -1,0 +1,18 @@
+GET http://localhost:8080/pets/1
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name" : "junio",
+    "Email" : "junio",
+    "Telephone" : "junio"
+}
+###
+DELETE http://localhost:8080/pets/1
+Content-Type: application/json
+
+{
+    "name" : "junio",
+    "ownerId" : 1
+}
